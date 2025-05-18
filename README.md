@@ -1,4 +1,4 @@
-# Overleaf R Reproducible Science Template
+# Overleaf - R - Reproducible Science Template
 
 ## Overview
 
