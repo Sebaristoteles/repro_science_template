@@ -1,0 +1,19 @@
+# do not sync content of generated data
+data/*
+
+# Exclude all LaTeX compilation files in doc folder
+/doc/**/*.aux
+/doc/**/*.bbl
+/doc/**/*.blg
+/doc/**/*.fdb_latexmk
+/doc/**/*.fls
+/doc/**/*.log
+/doc/**/*.out
+/doc/**/*.synctex.gz
+/doc/**/*.toc
+/doc/**/*.lof
+/doc/**/*.lot
+/doc/**/*.nav
+/doc/**/*.snm
+/doc/**/*.vrb
+/doc/**/*.xdv

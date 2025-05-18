@@ -1,0 +1,81 @@
+\documentclass{article}
+
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{url}
+%\usepackage{fontspec}
+\usepackage[english]{babel}
+
+\usepackage{apacite}
+\usepackage{lipsum}
+
+\begin{document}
+
+
+
+%----- Title -----
+
+\input{chapters/0_titlepage.tex}
+
+\maketitle
+
+
+
+%----- Abstract -----
+
+\input{chapters/0_abstract.tex}
+
+\pagebreak
+
+
+
+%----- Introduction -----
+
+\section{Introduction}
+\input{chapters/1_introduction.tex}
+
+
+
+
+%----- Literature -----
+
+\section{Literature}
+\input{chapters/2_literature.tex}
+
+
+
+%----- Data -----
+
+\section{Data}
+\input{chapters/3_data.tex}
+
+
+%----- Results -----
+
+\section{Results}
+
+\input{chapters/4_results.tex}
+
+
+
+%----- Conclusion -----
+
+\section{Conclusion}
+\input{chapters/5_conclusion.tex}
+
+
+
+%----- References -----
+
+\section*{References}
+
+\bibliographystyle{apacite}
+\bibliography{../references/references}
+
+\end{document}
