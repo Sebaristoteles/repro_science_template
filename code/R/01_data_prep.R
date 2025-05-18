@@ -1,5 +1,5 @@
 library(here)
-library(tidyverse)
+library(dplyr)
 library(gapminder)
 
 # load gapminder data
