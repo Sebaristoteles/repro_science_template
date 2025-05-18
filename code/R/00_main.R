@@ -5,3 +5,6 @@ library(here)
 source(here("code", "R", "01_data_prep.R"))
 source(here("code", "R", "02_figures.R"))
 source(here("code", "R", "03_tables.R"))
+
+source(here("code", "R", "zz_utils.R"))
+copy_bib()

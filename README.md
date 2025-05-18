@@ -56,6 +56,18 @@ In principle, you can replace the R pipeline with any other programming language
    - Alternatively, if you work alone, you can compile the LaTeX document locally using a LaTeX editor (e.g., VS Code with LaTeX Workshop, etc.).
 
 
+5. **Create own Git(hub) repository:**
+   - Create a new repository on GitHub.
+   - Add your project as remote repository
+   - push your local repository to Git(hub)
+
+6. **Connect Overleaf with GitHub:**
+   - In Overleaf, go to the project settings and connect your Overleaf project with your Git(hub) repository.
+   - This allows you to push changes from Overleaf to GitHub and pull changes from GitHub to Overleaf.
+   - Create a new project in Overleaf and select the option to import from GitHub.
+   - Select the repository you just created and import it.
+   - You can commit and push changes from Overleaf to GitHub, and pull changes from GitHub to Overleaf.
+
 ## Maintainer
 
 Sebastian Geschonke | [@Sebaristoteles](https://github.com/Sebaristoteles)
